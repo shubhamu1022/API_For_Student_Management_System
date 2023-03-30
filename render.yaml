@@ -1,0 +1,6 @@
+services:
+  - name: my-api
+    buildCommand: npm run build
+    startCommand: node index.js
+    env:
+      NODE_ENV: production
